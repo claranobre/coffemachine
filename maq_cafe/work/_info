@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Joao/Desktop/1orig
+Emaq_cafe
+Z0 w1433785954
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Clara/Downloads/maq_cafe
+Z4 8maq_cafe.vhd
+Z5 Fmaq_cafe.vhd
+l0
+L4
+VWd`X08E1R9=zVH?2o?];C1
+!s100 4;lH4ba=4VgUN]8FiG?=c1
+Z6 OV;C;10.3d;59
+32
+Z7 !s110 1433882001
+!i10b 1
+Z8 !s108 1433882001.701000
+Z9 !s90 -reportprogress|300|maq_cafe.vhd|
+Z10 !s107 maq_cafe.vhd|
+!i113 1
+Z11 tExplicit 1
+Amaq_cafe
+Z12 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z13 DEx4 work 2 po 0 22 Y2=Ohlo<fnBaUNV2680oB2
+Z14 DEx4 work 2 pc 0 22 iMWX4A0F`6_4E1H>GSjU^2
+R1
+R2
+Z15 DEx4 work 8 maq_cafe 0 22 Wd`X08E1R9=zVH?2o?];C1
+l32
+L21
+VlYamSS>2OCc2OY?al4K]10
+!s100 azUcnncBgla5QazX[LWVd1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Emaq_cafe_tb
+Z16 w1433881995
+R1
+R2
+R3
+Z17 8maq_cafe_tb.vhd
+Z18 Fmaq_cafe_tb.vhd
+l0
+L4
+VDX61<?GfkZ>h=CHdMlmV83
+!s100 @BmI?i^S4YZz0=8l;4`?W2
+R6
+32
+Z19 !s110 1433882002
+!i10b 1
+Z20 !s108 1433882002.874000
+Z21 !s90 -reportprogress|300|maq_cafe_tb.vhd|
+Z22 !s107 maq_cafe_tb.vhd|
+!i113 1
+R11
+Amaq_cafe_tb
+R15
+R1
+R2
+Z23 DEx4 work 11 maq_cafe_tb 0 22 DX61<?GfkZ>h=CHdMlmV83
+l21
+L8
+V0hkOQ<nSdVQ`6U7>83h2k0
+!s100 0@YU?>D:X^S[7Tl@eje]U0
+R6
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R11
+Epc
+Z24 w1433789705
+R1
+R2
+R3
+Z25 8PC.vhd
+Z26 FPC.vhd
+l0
+L4
+ViMWX4A0F`6_4E1H>GSjU^2
+!s100 DJ@zJhhhnHBFikB04YGFc1
+R6
+32
+Z27 !s110 1433882000
+!i10b 1
+Z28 !s108 1433882000.558000
+Z29 !s90 -reportprogress|300|PC.vhd|
+Z30 !s107 PC.vhd|
+!i113 1
+R11
+Apc
+R1
+R2
+R14
+l56
+L36
+VQ4bUMhTfFc6_^TTBG77?63
+!s100 YaB_@VP9DYNI1EJCnKJ8E1
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+Epo
+Z31 w1433786003
+R12
+R1
+R2
+R3
+Z32 8PO.vhd
+Z33 FPO.vhd
+l0
+L5
+VY2=Ohlo<fnBaUNV2680oB2
+!s100 c0IHLTY4bZCgZ=>kC]>3T0
+R6
+32
+Z34 !s110 1433881999
+!i10b 1
+Z35 !s108 1433881999.590000
+Z36 !s90 -reportprogress|300|PO.vhd|
+Z37 !s107 PO.vhd|
+!i113 1
+R11
+Apo
+R12
+R1
+R2
+R13
+l26
+L23
+VNW=k;EXL[e7dkhRk1aR_N1
+!s100 [KIHY33?jf13=K[eX3]QO3
+R6
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R11
