@@ -12,18 +12,18 @@ Emaq_cafe
 Z0 w1433785954
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dC:/Users/Clara/Downloads/maq_cafe
+Z3 d/home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe
 Z4 8maq_cafe.vhd
 Z5 Fmaq_cafe.vhd
 l0
 L4
 VWd`X08E1R9=zVH?2o?];C1
 !s100 4;lH4ba=4VgUN]8FiG?=c1
-Z6 OV;C;10.3d;59
+Z6 OV;C;10.4b;61
 32
-Z7 !s110 1433882001
+Z7 !s110 1448375889
 !i10b 1
-Z8 !s108 1433882001.701000
+Z8 !s108 1448375889.000000
 Z9 !s90 -reportprogress|300|maq_cafe.vhd|
 Z10 !s107 maq_cafe.vhd|
 !i113 1
@@ -49,7 +49,7 @@ R10
 !i113 1
 R11
 Emaq_cafe_tb
-Z16 w1433881995
+Z16 w1448375694
 R1
 R2
 R3
@@ -61,33 +61,33 @@ VDX61<?GfkZ>h=CHdMlmV83
 !s100 @BmI?i^S4YZz0=8l;4`?W2
 R6
 32
-Z19 !s110 1433882002
+R7
 !i10b 1
-Z20 !s108 1433882002.874000
-Z21 !s90 -reportprogress|300|maq_cafe_tb.vhd|
-Z22 !s107 maq_cafe_tb.vhd|
+R8
+Z19 !s90 -reportprogress|300|maq_cafe_tb.vhd|
+Z20 !s107 maq_cafe_tb.vhd|
 !i113 1
 R11
 Amaq_cafe_tb
 R15
 R1
 R2
-Z23 DEx4 work 11 maq_cafe_tb 0 22 DX61<?GfkZ>h=CHdMlmV83
+Z21 DEx4 work 11 maq_cafe_tb 0 22 DX61<?GfkZ>h=CHdMlmV83
 l21
 L8
-V0hkOQ<nSdVQ`6U7>83h2k0
-!s100 0@YU?>D:X^S[7Tl@eje]U0
+Z22 V0hkOQ<nSdVQ`6U7>83h2k0
+Z23 !s100 0@YU?>D:X^S[7Tl@eje]U0
 R6
 32
-R19
+R7
 !i10b 1
+R8
+R19
 R20
-R21
-R22
 !i113 1
 R11
 Epc
-Z24 w1433789705
+Z24 w1433789704
 R1
 R2
 R3
@@ -99,11 +99,11 @@ ViMWX4A0F`6_4E1H>GSjU^2
 !s100 DJ@zJhhhnHBFikB04YGFc1
 R6
 32
-Z27 !s110 1433882000
+R7
 !i10b 1
-Z28 !s108 1433882000.558000
-Z29 !s90 -reportprogress|300|PC.vhd|
-Z30 !s107 PC.vhd|
+R8
+Z27 !s90 -reportprogress|300|PC.vhd|
+Z28 !s107 PC.vhd|
 !i113 1
 R11
 Apc
@@ -116,32 +116,32 @@ VQ4bUMhTfFc6_^TTBG77?63
 !s100 YaB_@VP9DYNI1EJCnKJ8E1
 R6
 32
-R27
+R7
 !i10b 1
+R8
+R27
 R28
-R29
-R30
 !i113 1
 R11
 Epo
-Z31 w1433786003
+Z29 w1433786002
 R12
 R1
 R2
 R3
-Z32 8PO.vhd
-Z33 FPO.vhd
+Z30 8PO.vhd
+Z31 FPO.vhd
 l0
 L5
 VY2=Ohlo<fnBaUNV2680oB2
 !s100 c0IHLTY4bZCgZ=>kC]>3T0
 R6
 32
-Z34 !s110 1433881999
+R7
 !i10b 1
-Z35 !s108 1433881999.590000
-Z36 !s90 -reportprogress|300|PO.vhd|
-Z37 !s107 PO.vhd|
+Z32 !s108 1448375888.000000
+Z33 !s90 -reportprogress|300|PO.vhd|
+Z34 !s107 PO.vhd|
 !i113 1
 R11
 Apo
@@ -155,10 +155,10 @@ VNW=k;EXL[e7dkhRk1aR_N1
 !s100 [KIHY33?jf13=K[eX3]QO3
 R6
 32
-R34
+R7
 !i10b 1
-R35
-R36
-R37
+R32
+R33
+R34
 !i113 1
 R11

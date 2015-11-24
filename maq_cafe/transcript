@@ -1,0 +1,65 @@
+# Loading project coffemachine
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:38:08 on Nov 24,2015
+# vcom -reportprogress 300 PO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:38:09 on Nov 24,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:38:09 on Nov 24,2015
+# vcom -reportprogress 300 maq_cafe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe
+# -- Compiling architecture maq_cafe of maq_cafe
+# -- Loading entity PC
+# -- Loading package NUMERIC_STD
+# -- Loading entity PO
+# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:38:09 on Nov 24,2015
+# vcom -reportprogress 300 maq_cafe_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe_tb
+# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
+# -- Loading entity maq_cafe
+# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim maq_cafe_tb 
+# Start time: 11:38:09 on Nov 24,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.maq_cafe_tb(maq_cafe_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.maq_cafe(maq_cafe)
+# Loading work.pc(pc)
+# Loading work.po(po)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 1050 ns

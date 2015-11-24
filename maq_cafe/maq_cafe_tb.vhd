@@ -132,4 +132,3 @@ begin
         wait;
     end process;
 end maq_cafe_tb;
-
