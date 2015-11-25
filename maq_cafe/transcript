@@ -6,7 +6,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:38:08 on Nov 24,2015
+# Start time: 17:03:40 on Nov 25,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -14,52 +14,165 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
+# ** Error: PO.vhd(42): Cannot read output "valor_troco".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Error: PO.vhd(96): VHDL Compiler exiting
+# End time: 17:03:40 on Nov 25,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 4
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PO.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:38:09 on Nov 24,2015
-# vcom -reportprogress 300 PC.vhd 
+# Start time: 17:04:27 on Nov 25,2015
+# vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:38:09 on Nov 24,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
 # -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# ** Error: PO.vhd(42): Cannot read output "valor_troco".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Error: PO.vhd(96): VHDL Compiler exiting
+# End time: 17:04:27 on Nov 25,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 4
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PO.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:38:09 on Nov 24,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
+# Start time: 17:04:36 on Nov 25,2015
+# vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 11:38:09 on Nov 24,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim maq_cafe_tb 
-# Start time: 11:38:09 on Nov 24,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# ** Error: PO.vhd(42): Cannot read output "valor_troco".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Error: PO.vhd(96): VHDL Compiler exiting
+# End time: 17:04:36 on Nov 25,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 4
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PO.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:04:52 on Nov 25,2015
+# vcom -reportprogress 300 PO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# ** Error: PO.vhd(42): Cannot read output "valor_troco".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Error: PO.vhd(96): VHDL Compiler exiting
+# End time: 17:04:52 on Nov 25,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 4
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PO.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:05:09 on Nov 25,2015
+# vcom -reportprogress 300 PO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# ** Error: PO.vhd(42): Cannot read output "valor_troco".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Error: PO.vhd(96): VHDL Compiler exiting
+# End time: 17:05:09 on Nov 25,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 4
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PO.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:05:47 on Nov 25,2015
+# vcom -reportprogress 300 PO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# ** Error: PO.vhd(31): Cannot read output "valor_troco".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: PO.vhd(42): Cannot read output "valor_troco".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
+# ** Error: PO.vhd(96): VHDL Compiler exiting
+# End time: 17:05:47 on Nov 25,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 4
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PO.vhd"
