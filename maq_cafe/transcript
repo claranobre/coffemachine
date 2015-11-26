@@ -6,7 +6,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 17:03:40 on Nov 25,2015
+# Start time: 12:06:21 on Nov 26,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -14,20 +14,31 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# ** Error: PO.vhd(42): Cannot read output "valor_troco".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Error: PO.vhd(96): VHDL Compiler exiting
-# End time: 17:03:40 on Nov 25,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
+# End time: 12:06:21 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:06:21 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# ** Error: PC.vhd(67): Expression is not a signal.
+# ** Error: PC.vhd(77): Illegal target for signal assignment.
+# ** Error: PC.vhd(77): Target type state_t in signal assignment is different from expression type.
+# ** Error: PC.vhd(77): Target of signal assignment is not a signal.
+# ** Error: PC.vhd(92): Illegal target for signal assignment.
+# ** Error: PC.vhd(92): Target type state_t in signal assignment is different from expression type.
+# ** Error: PC.vhd(92): Target of signal assignment is not a signal.
+# ** Error: PC.vhd(343): VHDL Compiler exiting
+# End time: 12:06:21 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
 # ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
+# Error in macro ./script.do line 5
 # /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
 #     while executing
-# "vcom PO.vhd"
+# "vcom PC.vhd"
 do script.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
@@ -35,7 +46,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 17:04:27 on Nov 25,2015
+# Start time: 12:08:18 on Nov 26,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -43,20 +54,33 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# ** Error: PO.vhd(42): Cannot read output "valor_troco".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Error: PO.vhd(96): VHDL Compiler exiting
-# End time: 17:04:27 on Nov 25,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
+# End time: 12:08:18 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:08:18 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# ** Error: PC.vhd(40): (vcom-1294) Declaration with designator "estoque" already exists in this region.
+# ** =====> Prior declaration of "estoque" is at PC.vhd(31).
+# ** Error: PC.vhd(68): Expression is not a signal.
+# ** Error: PC.vhd(78): Illegal target for signal assignment.
+# ** Error: PC.vhd(78): Target type state_t in signal assignment is different from expression type.
+# ** Error: PC.vhd(78): Target of signal assignment is not a signal.
+# ** Error: PC.vhd(93): Illegal target for signal assignment.
+# ** Error: PC.vhd(93): Target type state_t in signal assignment is different from expression type.
+# ** Error: PC.vhd(93): Target of signal assignment is not a signal.
+# ** Error: PC.vhd(344): VHDL Compiler exiting
+# End time: 12:08:18 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
 # ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
+# Error in macro ./script.do line 5
 # /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
 #     while executing
-# "vcom PO.vhd"
+# "vcom PC.vhd"
 do script.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
@@ -64,7 +88,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 17:04:36 on Nov 25,2015
+# Start time: 12:08:51 on Nov 26,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -72,20 +96,55 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# ** Error: PO.vhd(42): Cannot read output "valor_troco".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Error: PO.vhd(96): VHDL Compiler exiting
-# End time: 17:04:36 on Nov 25,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom PO.vhd"
+# End time: 12:08:51 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:08:52 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# End time: 12:08:52 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:08:52 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe
+# -- Compiling architecture maq_cafe of maq_cafe
+# -- Loading entity PC
+# -- Loading package NUMERIC_STD
+# -- Loading entity PO
+# End time: 12:08:52 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:08:52 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe_tb
+# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
+# -- Loading entity maq_cafe
+# End time: 12:08:52 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim maq_cafe_tb 
+# Start time: 12:08:52 on Nov 26,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.maq_cafe_tb(maq_cafe_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.maq_cafe(maq_cafe)
+# Loading work.pc(pc)
+# Loading work.po(po)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 1050 ns
 do script.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
@@ -93,7 +152,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 17:04:52 on Nov 25,2015
+# Start time: 12:12:51 on Nov 26,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -101,20 +160,49 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# ** Error: PO.vhd(42): Cannot read output "valor_troco".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Error: PO.vhd(96): VHDL Compiler exiting
-# End time: 17:04:52 on Nov 25,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
+# End time: 12:12:51 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:12:51 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# End time: 12:12:51 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:12:51 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe
+# -- Compiling architecture maq_cafe of maq_cafe
+# -- Loading entity PC
+# -- Loading package NUMERIC_STD
+# -- Loading entity PO
+# End time: 12:12:51 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:12:51 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe_tb
+# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
+# -- Loading entity maq_cafe
+# ** Error: maq_cafe_tb.vhd(56): near "'": syntax error
+# ** Error: maq_cafe_tb.vhd(107): VHDL Compiler exiting
+# End time: 12:12:51 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
 # ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
+# Error in macro ./script.do line 7
 # /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
 #     while executing
-# "vcom PO.vhd"
+# "vcom maq_cafe_tb.vhd"
 do script.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
@@ -122,7 +210,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 17:05:09 on Nov 25,2015
+# Start time: 12:13:26 on Nov 26,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -130,20 +218,63 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# ** Error: PO.vhd(42): Cannot read output "valor_troco".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Error: PO.vhd(96): VHDL Compiler exiting
-# End time: 17:05:09 on Nov 25,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom PO.vhd"
+# End time: 12:13:26 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:13:26 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# End time: 12:13:26 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:13:26 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe
+# -- Compiling architecture maq_cafe of maq_cafe
+# -- Loading entity PC
+# -- Loading package NUMERIC_STD
+# -- Loading entity PO
+# End time: 12:13:26 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:13:26 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe_tb
+# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
+# -- Loading entity maq_cafe
+# End time: 12:13:26 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:13:27 on Nov 26,2015, Elapsed time: 0:04:35
+# Errors: 5, Warnings: 0
+# vsim maq_cafe_tb 
+# Start time: 12:13:27 on Nov 26,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.maq_cafe_tb(maq_cafe_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.maq_cafe(maq_cafe)
+# Loading work.pc(pc)
+# Loading work.po(po)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 1050 ns
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
 do script.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
@@ -151,7 +282,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 17:05:47 on Nov 25,2015
+# Start time: 12:18:04 on Nov 26,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -159,20 +290,131 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# ** Error: PO.vhd(31): Cannot read output "valor_troco".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Error: PO.vhd(42): Cannot read output "valor_troco".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Warning: PO.vhd(58): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(60): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Warning: PO.vhd(62): (vcom-1272) Length of expected is 12; length of actual is 24.
-# ** Error: PO.vhd(96): VHDL Compiler exiting
-# End time: 17:05:47 on Nov 25,2015, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 3
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom PO.vhd"
+# End time: 12:18:04 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:18:04 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# End time: 12:18:04 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:18:04 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe
+# -- Compiling architecture maq_cafe of maq_cafe
+# -- Loading entity PC
+# -- Loading package NUMERIC_STD
+# -- Loading entity PO
+# End time: 12:18:04 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:18:04 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe_tb
+# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
+# -- Loading entity maq_cafe
+# End time: 12:18:04 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:18:05 on Nov 26,2015, Elapsed time: 0:04:38
+# Errors: 5, Warnings: 1
+# vsim maq_cafe_tb 
+# Start time: 12:18:05 on Nov 26,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.maq_cafe_tb(maq_cafe_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.maq_cafe(maq_cafe)
+# Loading work.pc(pc)
+# Loading work.po(po)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 1050 ns
+# WARNING: No extended dataflow license exists
+# UndoStart or Redo start was not called Delete {.main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 undo delete 0}
+#  Trace back: 
+#    <7:eval:1: ::Wave::UndoRedoCaptureTransform Delete {.main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 undo delete 0}
+#    >6:eval:1: ::.main_pane.dataflow.interior.cs.body.pw.wf.top.tree insert end sim:/maq_cafe_tb/dut/i1/cont_moedas
+#    <5:proc:4: ::vsimwidgets::dfAddDataflowFromWave .main_pane.wave.interior.cs.body.pw.wf.tree {69298 ps} sim:/maq_cafe_tb/dut/i1/cont_moedas 1
+#    <4:proc:-1: ::Wave::_showDFReadersDrivers drivers .main_pane.wave.interior.cs.body.pw.wf 1
+#    <3:proc:36: ::Wave::ShowDFDrivers .main_pane.wave.interior.cs.body.pw.wf 1
+#    <2:eval:1: ::Wave::1Up .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 284 249
+#    <1:proc:2: ::Wave::SelectUp .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 284 249 614 467
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:22:02 on Nov 26,2015
+# vcom -reportprogress 300 PO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# End time: 12:22:02 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:22:02 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# End time: 12:22:02 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:22:02 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe
+# -- Compiling architecture maq_cafe of maq_cafe
+# -- Loading entity PC
+# -- Loading package NUMERIC_STD
+# -- Loading entity PO
+# End time: 12:22:02 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:22:02 on Nov 26,2015
+# vcom -reportprogress 300 maq_cafe_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maq_cafe_tb
+# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
+# -- Loading entity maq_cafe
+# End time: 12:22:02 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:22:03 on Nov 26,2015, Elapsed time: 0:03:58
+# Errors: 1, Warnings: 1
+# vsim maq_cafe_tb 
+# Start time: 12:22:03 on Nov 26,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.maq_cafe_tb(maq_cafe_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.maq_cafe(maq_cafe)
+# Loading work.pc(pc)
+# Loading work.po(po)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 1050 ns
