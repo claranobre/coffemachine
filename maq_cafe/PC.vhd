@@ -97,8 +97,8 @@ begin
 
                 cafe <= tipo_cafe;
 
-		if cafe_select = '1' then
-			seletor <= '1';
+		case cafe_select = '1' is
+			when seletor <= '1';
 
 			if tipo_cafe = "00" and confirmar = '1' then
                 		next_state <= verificar_cafe1;
@@ -117,11 +117,11 @@ begin
 				valor_cafe <= "000011111010";
 			end if;
 
-		else
+		when others
 			seletor <= '0';
 		        next_state <= espera;
                 	valor_cafe <= "000000000000";
-		end if;
+		end case;
 
 		-- inserçao de moedas
 

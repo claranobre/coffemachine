@@ -418,3 +418,80 @@ do script.do
 # .main_pane.wave.interior.cs.body.pw.wf
 # 0 ps
 # 1050 ns
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:35:55 on Nov 26,2015
+# vcom -reportprogress 300 PO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# End time: 12:35:55 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:35:55 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# ** Error: PC.vhd(101): near "<=": (vcom-1576) expecting => or '|' or '!'.
+# ** Error: PC.vhd(121): near "seletor": (vcom-1576) expecting => or '|' or '!'.
+# ** Error: PC.vhd(124): near "case": (vcom-1576) expecting PROCESS.
+# ** Error: PC.vhd(140): near "when": (vcom-1576) expecting END.
+# End time: 12:35:55 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 5
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PC.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work 
+# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
+# "work" maps to directory ./work. (Default mapping)
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:36:39 on Nov 26,2015
+# vcom -reportprogress 300 PO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PO
+# -- Compiling architecture PO of PO
+# End time: 12:36:39 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:36:39 on Nov 26,2015
+# vcom -reportprogress 300 PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture PC of PC
+# ** Error: PC.vhd(101): Signal "seletor" is type ieee.std_logic_1164.STD_LOGIC; expecting type std.STANDARD.BOOLEAN.
+# ** Error: PC.vhd(101): Cannot read output "seletor".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error (suppressible): PC.vhd(101): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Error: PC.vhd(101): near ";": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: PC.vhd(121): near "seletor": (vcom-1576) expecting => or '|' or '!'.
+# ** Error: PC.vhd(140): near "when": (vcom-1576) expecting END.
+# ** Error: PC.vhd(153): near "when": (vcom-1576) expecting END.
+# End time: 12:36:39 on Nov 26,2015, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./script.do line 5
+# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom PC.vhd"

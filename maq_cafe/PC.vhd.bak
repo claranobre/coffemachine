@@ -58,7 +58,7 @@ begin
     --registrador de estado da FSM
     process (clock, reset)
     begin
-        if reset = '1' then -- verificar se mostra o estoque anterior
+        if reset = '0' then
             current_state <= init;
         elsif clock'event and clock = '1' then
             current_state <= next_state;
@@ -97,29 +97,33 @@ begin
 
                 cafe <= tipo_cafe;
 
-		if cafe_select = '1' then
-			seletor <= '1';
-		else 
+		case cafe_select = '1' is
+			when seletor => '1';
+
+			if tipo_cafe = "00" and confirmar = '1' then
+                		next_state <= verificar_cafe1;
+                		valor_cafe <= "000011001000";
+
+                	elsif tipo_cafe = "01" and confirmar = '1' then
+                		next_state <= verificar_cafe2;
+                		valor_cafe <= "000100101100";
+
+                	elsif tipo_cafe = "10" and confirmar = '1' then
+                		next_state <= verificar_cafe3;
+                		valor_cafe <= "000101011110";
+
+			elsif tipo_cafe = "11" and confirmar = '1' then
+				next_state <= verificar_cafe4;
+				valor_cafe <= "000011111010";
+			end if;
+
+		when others
 			seletor <= '0';
-		end if;
-
-		if tipo_cafe = "00" and confirmar = '1' then
-                	next_state <= verificar_cafe1;
-                	valor_cafe <= "000011001000";
-                elsif tipo_cafe = "01" and confirmar = '1' then
-                	next_state <= verificar_cafe2;
-                	valor_cafe <= "000100101100";
-                elsif tipo_cafe = "10" and confirmar = '1' then
-                	next_state <= verificar_cafe3;
-                	valor_cafe <= "000101011110";
-		elsif tipo_cafe = "11" and confirmar = '1' then
-			next_state <= verificar_cafe4;
-			valor_cafe <= "000011111010";
-		else
-                	next_state <= espera;
+		        next_state <= espera;
                 	valor_cafe <= "000000000000";
-		end if;
+		end case;
 
+		-- inserçao de moedas
 
                 if botaom1 = '1' then -- inseriu 10 cents
                 	next_state <= inserir_moeda1;
@@ -131,6 +135,7 @@ begin
 			next_state <= inserir_moeda3;
 			valor_cafe <= "000000000000";		
                 end if;
+		--
 
             when inserir_moeda1 =>
                 clr_moeda   <= '0';
@@ -157,8 +162,7 @@ begin
                 valor_cafe  <= "000000000000";
                 troco_valor <= "000000000000";
                 cafe <= tipo_cafe;
-                next_state <= espera;
-					 
+                next_state <= espera;					 
 					 
 	     when inserir_moeda3 =>
                 clr_moeda   <= '0';
