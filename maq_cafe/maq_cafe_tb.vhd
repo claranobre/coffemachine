@@ -47,9 +47,46 @@ begin
         cafe_select <= '0';
         botaom1 <= '0';
         botaom2 <= '0';
+        botaom3 <= '1';
+        confirmar <= '0';
+        wait until clock'event and clock = '1';
+        wait until clock'event and clock = '1';
+        wait until clock'event and clock = '1';
+        wait until clock'event and clock = '1';
+        wait until clock'event and clock = '1';
+
+        reset <= '0';   
+        cafe_select <= '0';
+        botaom1 <= '0';
+        botaom2 <= '1';
         botaom3 <= '0';
         confirmar <= '0';
         wait until clock'event and clock = '1';
+        wait until clock'event and clock = '1';
+        wait until clock'event and clock = '1';
+
+        reset <= '0';   
+        cafe_select <= '0';
+        botaom1 <= '0';
+        botaom2 <= '0';
+        botaom3 <= '1';
+        confirmar <= '0';
+        wait until clock'event and clock = '1';
+
+        reset <= '0';   
+        cafe_select <= '0';
+        botaom1 <= '0';
+        botaom2 <= '0';
+        botaom3 <= '1';
+        confirmar <= '0';
+        wait until clock'event and clock = '1';
+
+        reset <= '0';   
+        cafe_select <= '0';
+        botaom1 <= '0';
+        botaom2 <= '0';
+        botaom3 <= '0';
+        confirmar <= '0';
         wait until clock'event and clock = '1';
 
         reset <= '0';   
@@ -59,29 +96,19 @@ begin
         botaom3 <= '0';
         confirmar <= '0';
         wait until clock'event and clock = '1';
-        wait until clock'event and clock = '1';
 
         reset <= '0';   
-        cafe_select <= '0';
+        cafe_select <= '1';
         botaom1 <= '0';
         botaom2 <= '0';
-        botaom3 <= '1';
-        confirmar <= '0';
-        wait until clock'event and clock = '1';
-	wait until clock'event and clock = '1';
-
-        reset <= '0';   
-        cafe_select <= '0';
-        botaom1 <= '0';
-        botaom2 <= '0';
-        botaom3 <= '1';
+        botaom3 <= '0';
         confirmar <= '0';
         wait until clock'event and clock = '1';
 
         reset <= '0';   
         cafe_select <= '0';
         botaom1 <= '0';
-        botaom2 <= '1';
+        botaom2 <= '0';
         botaom3 <= '0';
         confirmar <= '0';
         wait until clock'event and clock = '1';

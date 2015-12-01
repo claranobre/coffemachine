@@ -28,7 +28,6 @@ entity PC is
         moeda3     : out std_logic;
         clr_moeda  : out std_logic;
         valor_cafe : out std_logic_vector(11 downto 0);
-	--estoque    : out std_logic_vector(11 downto 0);
 	seletor    : out std_logic
     );
 end PC;
@@ -37,7 +36,6 @@ architecture PC of PC is
     type state_t is (
         init, 
         espera, 
-        --estoque, -- variavel estoque
         inserir_moeda1,
 	inserir_moeda2,
 	inserir_moeda3,
@@ -58,7 +56,7 @@ begin
     --registrador de estado da FSM
     process (clock, reset)
     begin
-        if reset = '0' then
+        if reset = '1' then
             current_state <= init;
         elsif clock'event and clock = '1' then
             current_state <= next_state;
@@ -74,8 +72,8 @@ begin
 	    moeda3      <= '0';
 	    clr_moeda   <= '1';
 	    troco       <= '0';
-	    seletor     <= '0';
-	    --estoque 	<= '0';
+	
+		seletor     <= '0';
                 valor_cafe  <= "000000000000";
                 troco_valor <= "000000000000";
                 led_vermelho <= '0';
@@ -88,56 +86,50 @@ begin
                 moeda1	    <= '0';
 		moeda2      <= '0';
 		moeda3      <= '0';
-	        troco	    <= '0';
+	        troco       <= '0';
 		seletor     <= '0';
-		--estoque	    <= '0';
                 led_vermelho <= '0';
                 led_verde <='0';
                 troco_valor <= "000000000000";
-
-                cafe <= tipo_cafe;
-
-		case cafe_select = '1' is
-			when seletor <= '1';
-
-			if tipo_cafe = "00" and confirmar = '1' then
-                		next_state <= verificar_cafe1;
-                		valor_cafe <= "000011001000";
-
-                	elsif tipo_cafe = "01" and confirmar = '1' then
-                		next_state <= verificar_cafe2;
-                		valor_cafe <= "000100101100";
-
-                	elsif tipo_cafe = "10" and confirmar = '1' then
-                		next_state <= verificar_cafe3;
-                		valor_cafe <= "000101011110";
-
-			elsif tipo_cafe = "11" and confirmar = '1' then
-				next_state <= verificar_cafe4;
-				valor_cafe <= "000011111010";
-			end if;
-
-		when others
+                
+		cafe <= tipo_cafe;
+		
+		if cafe_select = '1' then
+			seletor <= '1';
+		else 
 			seletor <= '0';
-		        next_state <= espera;
-                	valor_cafe <= "000000000000";
-		end case;
+		end if;
 
-		-- inserçao de moedas
+		if tipo_cafe = "00" and confirmar = '1' then
+                    	next_state <= verificar_cafe1;
+                    	valor_cafe <= "000011001000";
+                elsif tipo_cafe = "01" and confirmar = '1' then
+                    	next_state <= verificar_cafe2;
+                    	valor_cafe <= "000100101100";
+                elsif tipo_cafe = "10" and confirmar = '1' then
+                    	next_state <= verificar_cafe3;
+                    	valor_cafe <= "000101011110";
+		elsif tipo_cafe = "11" and confirmar = '1' then
+			next_state <= verificar_cafe4;
+			valor_cafe <= "000011111010";
 
-                if botaom1 = '1' then -- inseriu 10 cents
-                	next_state <= inserir_moeda1;
-                	valor_cafe <= "000000000000";
+		if botaom1 = '1' then -- inseriu 10 cents
+                    	next_state <= inserir_moeda1;
+                    	valor_cafe <= "000000000000";
 		elsif botaom2 = '1' then -- inseriu 50 cents
-                	next_state <= inserir_moeda2;
-                 	valor_cafe <= "000000000000";
+                    	next_state <= inserir_moeda2;
+                    	valor_cafe <= "000000000000";
 		elsif botaom3 = '1' then -- inseriu 1 real
 			next_state <= inserir_moeda3;
-			valor_cafe <= "000000000000";		
-                end if;
-		--
+			valor_cafe <= "000000000000";
+		end if;
 
-            when inserir_moeda1 =>
+		else
+                    next_state <= espera;
+                    valor_cafe <= "000000000000";
+                end if;
+
+            	when inserir_moeda1 =>
                 clr_moeda   <= '0';
                 moeda1      <= '1';
 		moeda2      <= '0';
@@ -150,7 +142,7 @@ begin
                 cafe <= tipo_cafe;
                 next_state <= espera;
 					 
-	     when inserir_moeda2 =>
+		when inserir_moeda2 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '1';
@@ -162,9 +154,10 @@ begin
                 valor_cafe  <= "000000000000";
                 troco_valor <= "000000000000";
                 cafe <= tipo_cafe;
-                next_state <= espera;					 
+                next_state <= espera;
 					 
-	     when inserir_moeda3 =>
+					 
+		when inserir_moeda3 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -179,7 +172,7 @@ begin
 		next_state <= espera;
 								
 				
-            when verificar_cafe1 =>
+            	when verificar_cafe1 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -197,7 +190,7 @@ begin
                     next_state <= espera;
                 end if;
 
-            when emitir_cafe1 =>
+            	when emitir_cafe1 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -218,7 +211,7 @@ begin
 
                 next_state <= init;
 
-            when verificar_cafe2 =>
+            	when verificar_cafe2 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -236,7 +229,7 @@ begin
                     next_state <= espera;
                 end if;
 
-            when emitir_cafe2 =>
+            	when emitir_cafe2 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -256,7 +249,7 @@ begin
 
                 next_state <= init;
 
-            when verificar_cafe3 =>
+            	when verificar_cafe3 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -275,7 +268,7 @@ begin
                     next_state <= espera;
                 end if;
 
-            when emitir_cafe3 =>
+            	when emitir_cafe3 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -294,17 +287,18 @@ begin
                     troco_valor <= "000000000000";
                 end if;
 				
-	    when verificar_cafe4 =>
+				when verificar_cafe4 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
-		moeda2      <= '0';
-		moeda3      <= '0';
+					 moeda2      <= '0';
+					 moeda3      <= '0';
                 troco       <= '0';
-		seletor     <= '0';
+					 seletor     <= '0';
                 valor_cafe  <= "000011111010";
                 troco_valor <= "000000000000";
                 led_verde <= '0';
                 cafe <= tipo_cafe;
+
                 if qtd_ok = '1' then
                     next_state <= emitir_cafe4;
                 else
@@ -312,7 +306,7 @@ begin
                     next_state <= espera;
                 end if;
 				
-	    when emitir_cafe4 =>
+		when emitir_cafe4 =>
                 clr_moeda   <= '0';
                 moeda1      <= '0';
 		moeda2      <= '0';
@@ -322,6 +316,7 @@ begin
                 led_vermelho <= '0';
                 led_verde <= '1';
                 cafe <= tipo_cafe;
+
                 if dar_troco = '1' then
                     troco       <= '1';
                     troco_valor <= valor_troco;

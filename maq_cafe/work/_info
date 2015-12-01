@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/Joao/Desktop/1orig
 Emaq_cafe
-Z0 w1433785954
+Z0 w1448983099
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 d/home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe
@@ -17,28 +17,28 @@ Z4 8maq_cafe.vhd
 Z5 Fmaq_cafe.vhd
 l0
 L4
-VWd`X08E1R9=zVH?2o?];C1
-!s100 4;lH4ba=4VgUN]8FiG?=c1
+Vgh`lU1VIQjS0<=e8MLSkm2
+!s100 7O>@inko_8fGYd:oaNG211
 Z6 OV;C;10.4b;61
 32
-Z7 !s110 1448551322
+Z7 !s110 1448985285
 !i10b 1
-Z8 !s108 1448551322.000000
+Z8 !s108 1448985285.000000
 Z9 !s90 -reportprogress|300|maq_cafe.vhd|
 Z10 !s107 maq_cafe.vhd|
 !i113 1
 Z11 tExplicit 1
 Amaq_cafe
 Z12 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z13 DEx4 work 2 po 0 22 em87LzCf3BTRl:e?]Q7iG3
-Z14 DEx4 work 2 pc 0 22 ^QhD@5JO=JhbSa3fDX4fm2
+Z13 DEx4 work 2 po 0 22 02YLi@?]?EHYS;SO4RJMY2
+Z14 DEx4 work 2 pc 0 22 Al0E?Skjk1EB][bnSPWYd0
 R1
 R2
-Z15 DEx4 work 8 maq_cafe 0 22 Wd`X08E1R9=zVH?2o?];C1
+Z15 DEx4 work 8 maq_cafe 0 22 gh`lU1VIQjS0<=e8MLSkm2
 l32
 L21
-VlYamSS>2OCc2OY?al4K]10
-!s100 azUcnncBgla5QazX[LWVd1
+VLTiJLBPVzS6Geo8k=;@KM2
+!s100 ^E@W]V<Z@>Z@`AJ2kj@=d2
 R6
 32
 R7
@@ -49,7 +49,7 @@ R10
 !i113 1
 R11
 Emaq_cafe_tb
-Z16 w1448551056
+Z16 w1448983544
 R1
 R2
 R3
@@ -72,11 +72,11 @@ Amaq_cafe_tb
 R15
 R1
 R2
-DEx4 work 11 maq_cafe_tb 0 22 DX61<?GfkZ>h=CHdMlmV83
+Z21 DEx4 work 11 maq_cafe_tb 0 22 DX61<?GfkZ>h=CHdMlmV83
 l21
 L8
-V>U_:VHDODW;[InV1G>^8o3
-!s100 zkX>`SH_On85f=7l_fS_G2
+Z22 VKdh@G?><MT[5SBjgG=6]X3
+Z23 !s100 e^GiLBSV>IHW;bckX@?Rc2
 R6
 32
 R7
@@ -87,62 +87,61 @@ R20
 !i113 1
 R11
 Epc
-w1448552191
+Z24 w1448984033
 R1
 R2
 R3
-Z21 8PC.vhd
-Z22 FPC.vhd
+Z25 8PC.vhd
+Z26 FPC.vhd
 l0
 L4
-V^QhD@5JO=JhbSa3fDX4fm2
-!s100 ^EYNQjaKKLema4V_Ne9i:1
+VAl0E?Skjk1EB][bnSPWYd0
+!s100 3n]i@M>C[EKa4_W`2znXB0
 R6
 32
-Z23 !s110 1448552199
+R7
 !i10b 1
-Z24 !s108 1448552199.000000
-Z25 !s90 -reportprogress|300|PC.vhd|
-!s107 PC.vhd|
+R8
+Z27 !s90 -reportprogress|300|PC.vhd|
+Z28 !s107 PC.vhd|
 !i113 1
 R11
 Apc
 R1
 R2
 R14
-l57
-L36
-V5<BkLmbFmBIB8FTWd7X4P3
-!s100 =T@nb6RUR6C3KLVz@E5Oz0
+l55
+L35
+VoBF7@WP;3Y7BiO4lojBh51
+!s100 a[[A3MkgloZ<U6VlJ4UPo3
 R6
 32
 R7
 !i10b 1
 R8
-R25
-!s107 PC.vhd|
+R27
+R28
 !i113 1
 R11
-w1448551313
 Epo
-Z26 w1448550244
+Z29 w1448985281
 R12
 R1
 R2
 R3
-Z27 8PO.vhd
-Z28 FPO.vhd
+Z30 8PO.vhd
+Z31 FPO.vhd
 l0
 L5
-Vem87LzCf3BTRl:e?]Q7iG3
-!s100 c>DPZD:AMnj=6F;?n]N5o3
+V02YLi@?]?EHYS;SO4RJMY2
+!s100 8Y@;EognAK6oOBOnmnoY21
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z29 !s90 -reportprogress|300|PO.vhd|
-Z30 !s107 PO.vhd|
+R8
+Z32 !s90 -reportprogress|300|PO.vhd|
+Z33 !s107 PO.vhd|
 !i113 1
 R11
 Apo
@@ -156,10 +155,10 @@ ViaOnV9ZQUHgWj@zDoE<?R3
 !s100 Hiz472BUj:>NLCdKZhQ6?3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R29
-R30
+R8
+R32
+R33
 !i113 1
 R11

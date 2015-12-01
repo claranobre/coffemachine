@@ -12,9 +12,9 @@ entity maq_cafe is
 	confirmar    : in std_logic;
         troco        : out std_logic;
         troco_valor  : out std_logic_vector(11 downto 0);
-        led_verde    : out std_logic; -- Indica que o cafÈ foi servido
-        led_vermelho : out std_logic;  -- Indica falta de dinheiro suficiente para a compra do cafÈ selecionado.
-        cafe         : out std_logic_vector(1 downto 0) -- mostra o tipo de cafÈ para o usu·rio.
+        led_verde    : out std_logic; -- Indica que o caf√© foi servido
+        led_vermelho : out std_logic;  -- Indica falta de dinheiro suficiente para a compra do caf√© selecionado.
+        cafe         : out std_logic_vector(1 downto 0) -- mostra o tipo de caf√© para o usu√°rio.
     );
 end maq_cafe;
 
@@ -23,7 +23,7 @@ architecture maq_cafe of maq_cafe is
     signal moeda1      : std_logic;
     signal moeda2      : std_logic;
     signal moeda3      : std_logic;
-    signal tipo_cafe   : std_logic_vector(1 downto 0);
+    signal tipo_cafe   : std_logic_vector(2 downto 0);
     signal seletor     : std_logic;
     signal clr_moeda   : std_logic;
     signal valor_cafe  : std_logic_vector(11 downto 0);

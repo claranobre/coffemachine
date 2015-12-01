@@ -15,8 +15,8 @@ entity PO is
         qtd_ok      : out std_logic;
         dar_troco   : out std_logic;
         valor_troco : out std_logic_vector(11 downto 0);
-		  tipo_cafe   : out std_logic_vector (1 downto 0)
-		  
+	tipo_cafe   : out std_logic_vector (1 downto 0)
+		
     );
 end PO;
 
