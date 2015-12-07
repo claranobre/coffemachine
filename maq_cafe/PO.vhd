@@ -43,12 +43,12 @@ begin
         elsif clock'event and clock = '1' then
             if moeda1 = '1' then
                 cont_moedas <= std_logic_vector(unsigned(cont_moedas) + "000000001010");
-				elsif moeda2 = '1' then
-					 cont_moedas <= std_logic_vector(unsigned(cont_moedas) + "000000110010");
-				elsif moeda3 = '1' then
-					 cont_moedas <= std_logic_vector(unsigned(cont_moedas) + "000001100100");
-				else
-					 cont_moedas <= cont_moedas;
+		elsif moeda2 = '1' then
+		cont_moedas <= std_logic_vector(unsigned(cont_moedas) + "000000110010");
+		elsif moeda3 = '1' then
+		cont_moedas <= std_logic_vector(unsigned(cont_moedas) + "000001100100");
+		else
+		cont_moedas <= cont_moedas;
             end if;
         end if;
     end process;

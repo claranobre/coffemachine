@@ -22,7 +22,7 @@ end PO;
 
 architecture PO of PO is
     signal cont_moedas : std_logic_vector(11 downto 0) := "000000000000";
-    signal cafe_tipo   : std_logic_vector(1 downto 0) := "000";
+    signal cafe_tipo   : std_logic_vector(1 downto 0) := "00";
 begin
    	 process (cafe_select, cafe_tipo, reset, clock)
 	 begin

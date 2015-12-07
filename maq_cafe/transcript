@@ -6,7 +6,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:57:18 on Dec 01,2015
+# Start time: 11:20:05 on Dec 03,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -14,20 +14,20 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# End time: 11:57:18 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:20:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:57:18 on Dec 01,2015
+# Start time: 11:20:05 on Dec 03,2015
 # vcom -reportprogress 300 PC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC
 # -- Compiling architecture PC of PC
-# End time: 11:57:18 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:20:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:57:18 on Dec 01,2015
+# Start time: 11:20:05 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -37,10 +37,10 @@ do script.do
 # -- Loading entity PC
 # -- Loading package NUMERIC_STD
 # -- Loading entity PO
-# End time: 11:57:18 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:20:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:57:18 on Dec 01,2015
+# Start time: 11:20:05 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -48,10 +48,10 @@ do script.do
 # -- Compiling entity maq_cafe_tb
 # -- Compiling architecture maq_cafe_tb of maq_cafe_tb
 # -- Loading entity maq_cafe
-# End time: 11:57:18 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:20:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim maq_cafe_tb 
-# Start time: 11:57:18 on Dec 01,2015
+# Start time: 11:20:05 on Dec 03,2015
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -70,7 +70,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:59:04 on Dec 01,2015
+# Start time: 11:25:05 on Dec 03,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -78,20 +78,20 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# End time: 11:59:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:25:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:59:04 on Dec 01,2015
+# Start time: 11:25:05 on Dec 03,2015
 # vcom -reportprogress 300 PC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC
 # -- Compiling architecture PC of PC
-# End time: 11:59:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:25:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:59:04 on Dec 01,2015
+# Start time: 11:25:05 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -101,10 +101,10 @@ do script.do
 # -- Loading entity PC
 # -- Loading package NUMERIC_STD
 # -- Loading entity PO
-# End time: 11:59:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:25:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 11:59:04 on Dec 01,2015
+# Start time: 11:25:05 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -112,12 +112,12 @@ do script.do
 # -- Compiling entity maq_cafe_tb
 # -- Compiling architecture maq_cafe_tb of maq_cafe_tb
 # -- Loading entity maq_cafe
-# End time: 11:59:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:25:05 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 11:59:05 on Dec 01,2015, Elapsed time: 0:01:47
+# End time: 11:25:06 on Dec 03,2015, Elapsed time: 0:05:01
 # Errors: 0, Warnings: 0
 # vsim maq_cafe_tb 
-# Start time: 11:59:05 on Dec 01,2015
+# Start time: 11:25:06 on Dec 03,2015
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -136,7 +136,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:03:04 on Dec 01,2015
+# Start time: 11:29:55 on Dec 03,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -144,20 +144,20 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# End time: 12:03:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:29:55 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:03:04 on Dec 01,2015
+# Start time: 11:29:55 on Dec 03,2015
 # vcom -reportprogress 300 PC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC
 # -- Compiling architecture PC of PC
-# End time: 12:03:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:29:55 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:03:04 on Dec 01,2015
+# Start time: 11:29:55 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -167,10 +167,10 @@ do script.do
 # -- Loading entity PC
 # -- Loading package NUMERIC_STD
 # -- Loading entity PO
-# End time: 12:03:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:29:55 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:03:04 on Dec 01,2015
+# Start time: 11:29:55 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -178,12 +178,12 @@ do script.do
 # -- Compiling entity maq_cafe_tb
 # -- Compiling architecture maq_cafe_tb of maq_cafe_tb
 # -- Loading entity maq_cafe
-# End time: 12:03:04 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:29:55 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 12:03:04 on Dec 01,2015, Elapsed time: 0:03:59
+# End time: 11:29:56 on Dec 03,2015, Elapsed time: 0:04:50
 # Errors: 0, Warnings: 0
 # vsim maq_cafe_tb 
-# Start time: 12:03:04 on Dec 01,2015
+# Start time: 11:29:56 on Dec 03,2015
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -202,7 +202,7 @@ do script.do
 # Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
 # "work" maps to directory ./work. (Default mapping)
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:05:07 on Dec 01,2015
+# Start time: 11:33:59 on Dec 03,2015
 # vcom -reportprogress 300 PO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -210,20 +210,20 @@ do script.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity PO
 # -- Compiling architecture PO of PO
-# End time: 12:05:07 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:33:59 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:05:07 on Dec 01,2015
+# Start time: 11:33:59 on Dec 03,2015
 # vcom -reportprogress 300 PC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC
 # -- Compiling architecture PC of PC
-# End time: 12:05:08 on Dec 01,2015, Elapsed time: 0:00:01
+# End time: 11:33:59 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:05:08 on Dec 01,2015
+# Start time: 11:33:59 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -233,10 +233,10 @@ do script.do
 # -- Loading entity PC
 # -- Loading package NUMERIC_STD
 # -- Loading entity PO
-# End time: 12:05:08 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:33:59 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:05:08 on Dec 01,2015
+# Start time: 11:33:59 on Dec 03,2015
 # vcom -reportprogress 300 maq_cafe_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -244,1009 +244,12 @@ do script.do
 # -- Compiling entity maq_cafe_tb
 # -- Compiling architecture maq_cafe_tb of maq_cafe_tb
 # -- Loading entity maq_cafe
-# End time: 12:05:08 on Dec 01,2015, Elapsed time: 0:00:00
+# End time: 11:33:59 on Dec 03,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 12:05:08 on Dec 01,2015, Elapsed time: 0:02:04
-# Errors: 0, Warnings: 0
-# vsim maq_cafe_tb 
-# Start time: 12:05:08 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:07:19 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:07:20 on Dec 01,2015, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:07:20 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:07:20 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:07:20 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:07:20 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:07:20 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:07:20 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:07:20 on Dec 01,2015, Elapsed time: 0:02:12
+# End time: 11:34:00 on Dec 03,2015, Elapsed time: 0:04:04
 # Errors: 0, Warnings: 0
 # vsim maq_cafe_tb 
-# Start time: 12:07:20 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:08:42 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:08:42 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:08:42 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:08:42 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:08:42 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:08:42 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:08:42 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:08:42 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:08:43 on Dec 01,2015, Elapsed time: 0:01:23
-# Errors: 0, Warnings: 0
-# vsim maq_cafe_tb 
-# Start time: 12:08:43 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:14:46 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# ** Error (suppressible): PO.vhd(25): (vcom-1272) Length of expected is 3; length of actual is 2.
-# ** Warning: PO.vhd(30): (vcom-1272) Length of expected is 3; length of actual is 2.
-# ** Error: PO.vhd(74): VHDL Compiler exiting
-# End time: 12:14:46 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 1
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom PO.vhd"
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:15:26 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# ** Error (suppressible): PO.vhd(25): (vcom-1272) Length of expected is 3; length of actual is 2.
-# ** Warning: PO.vhd(30): (vcom-1272) Length of expected is 3; length of actual is 2.
-# ** Error: PO.vhd(74): VHDL Compiler exiting
-# End time: 12:15:26 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 1
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom PO.vhd"
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:15:51 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:15:51 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:15:51 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# ** Warning: PC.vhd(81): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(95): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(142): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(156): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(171): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(185): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(202): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(223): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(241): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(262): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(280): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(300): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(318): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(339): (vcom-1272) Length of expected is 2; length of actual is 3.
-# End time: 12:15:51 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 14
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:15:51 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# ** Error (suppressible): maq_cafe.vhd(36): (vcom-1272) Length of formal "tipo_cafe" is 3; length of actual is 2.
-# ** Error (suppressible): maq_cafe.vhd(42): (vcom-1272) Length of formal "tipo_cafe" is 3; length of actual is 2.
-# ** Error: maq_cafe.vhd(45): VHDL Compiler exiting
-# End time: 12:15:51 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 6
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom maq_cafe.vhd"
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:17:25 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:17:25 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:17:25 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# ** Warning: PC.vhd(81): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(95): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(142): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(156): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(171): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(185): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(202): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(223): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(241): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(262): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(280): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(300): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(318): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(339): (vcom-1272) Length of expected is 2; length of actual is 3.
-# End time: 12:17:25 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 14
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:17:25 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# ** Error (suppressible): maq_cafe.vhd(36): (vcom-1272) Length of formal "cafe" is 2; length of actual is 3.
-# ** Error: maq_cafe.vhd(45): VHDL Compiler exiting
-# End time: 12:17:25 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 6
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom maq_cafe.vhd"
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:17:43 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:17:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:17:43 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# ** Warning: PC.vhd(81): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(95): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(142): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(156): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(171): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(185): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(202): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(223): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(241): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(262): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(280): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(300): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(318): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: PC.vhd(339): (vcom-1272) Length of expected is 2; length of actual is 3.
-# End time: 12:17:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 14
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:17:43 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:17:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:17:43 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:17:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:17:44 on Dec 01,2015, Elapsed time: 0:09:01
-# Errors: 16, Warnings: 44
-# vsim maq_cafe_tb 
-# Start time: 12:17:44 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 3 (2 downto 0).
-#    Time: 0 ps  Iteration: 0  Process: /maq_cafe_tb/dut/i0/line__66 File: PC.vhd
-# Fatal error in Process line__66 at PC.vhd line 81
-# 
-# HDL call sequence:
-# Stopped at PC.vhd 81 Process line__66
-# 
-# 0 ps
-# 1 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:20:03 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# ** Warning: PO.vhd(30): (vcom-1272) Length of expected is 2; length of actual is 3.
-# End time: 12:20:03 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:20:03 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:20:03 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:20:03 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:20:03 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:20:03 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:20:03 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:20:04 on Dec 01,2015, Elapsed time: 0:02:20
-# Errors: 2, Warnings: 1
-# vsim maq_cafe_tb 
-# Start time: 12:20:04 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:21:53 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# ** Warning: PO.vhd(30): (vcom-1272) Length of expected is 2; length of actual is 3.
-# End time: 12:21:53 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:21:53 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:21:53 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:21:53 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:21:53 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:21:53 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:21:53 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:21:54 on Dec 01,2015, Elapsed time: 0:01:50
-# Errors: 0, Warnings: 1
-# vsim maq_cafe_tb 
-# Start time: 12:21:54 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:24:24 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# ** Warning: PO.vhd(30): (vcom-1272) Length of expected is 2; length of actual is 3.
-# End time: 12:24:24 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:24:24 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:24:24 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:24:24 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:24:24 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:24:24 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:24:24 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:24:24 on Dec 01,2015, Elapsed time: 0:02:30
-# Errors: 0, Warnings: 1
-# vsim maq_cafe_tb 
-# Start time: 12:24:24 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:25:57 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# ** Warning: PO.vhd(30): (vcom-1272) Length of expected is 2; length of actual is 3.
-# End time: 12:25:57 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:25:57 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:25:57 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:25:57 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:25:57 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:25:57 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:25:57 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:25:57 on Dec 01,2015, Elapsed time: 0:01:33
-# Errors: 0, Warnings: 1
-# vsim maq_cafe_tb 
-# Start time: 12:25:57 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:29:00 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:29:00 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:29:00 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:29:00 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:29:00 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:29:00 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:29:00 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:29:00 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:29:00 on Dec 01,2015, Elapsed time: 0:03:03
-# Errors: 0, Warnings: 0
-# vsim maq_cafe_tb 
-# Start time: 12:29:00 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:30:06 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:30:06 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:30:06 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:30:06 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:30:06 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:30:06 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:30:06 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:30:06 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:30:07 on Dec 01,2015, Elapsed time: 0:01:07
-# Errors: 0, Warnings: 0
-# vsim maq_cafe_tb 
-# Start time: 12:30:07 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:31:43 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:31:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:31:43 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:31:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:31:43 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:31:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:31:43 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:31:43 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:31:44 on Dec 01,2015, Elapsed time: 0:01:37
-# Errors: 0, Warnings: 0
-# vsim maq_cafe_tb 
-# Start time: 12:31:44 on Dec 01,2015
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.maq_cafe_tb(maq_cafe_tb)
-# Loading ieee.numeric_std(body)
-# Loading work.maq_cafe(maq_cafe)
-# Loading work.pc(pc)
-# Loading work.po(po)
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 1050 ns
-do. script.do
-# invalid command name "do."
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:53:25 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:53:25 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:53:25 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:53:25 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:53:25 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# ** Error (suppressible): maq_cafe.vhd(42): (vcom-1272) Length of formal "tipo_cafe" is 3; length of actual is 2.
-# ** Error: maq_cafe.vhd(45): VHDL Compiler exiting
-# End time: 12:53:25 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 6
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom maq_cafe.vhd"
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:54:17 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# ** Error (suppressible): PO.vhd(25): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Error: PO.vhd(74): VHDL Compiler exiting
-# End time: 12:54:17 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./script.do line 4
-# /home/clara/altera/15.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom PO.vhd"
-do script.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
-# vmap -modelsim_quiet work 
-# Reading /home/clara/Documents/UFRN/Organizacao e Arquitetura de Computadores/2015.2/coffeemachine/maq_cafe/coffemachine.mpf
-# "work" maps to directory ./work. (Default mapping)
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:54:45 on Dec 01,2015
-# vcom -reportprogress 300 PO.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PO
-# -- Compiling architecture PO of PO
-# End time: 12:54:45 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:54:45 on Dec 01,2015
-# vcom -reportprogress 300 PC.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity PC
-# -- Compiling architecture PC of PC
-# End time: 12:54:45 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:54:45 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe
-# -- Compiling architecture maq_cafe of maq_cafe
-# -- Loading entity PC
-# -- Loading package NUMERIC_STD
-# -- Loading entity PO
-# End time: 12:54:45 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 12:54:45 on Dec 01,2015
-# vcom -reportprogress 300 maq_cafe_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity maq_cafe_tb
-# -- Compiling architecture maq_cafe_tb of maq_cafe_tb
-# -- Loading entity maq_cafe
-# End time: 12:54:45 on Dec 01,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 12:54:46 on Dec 01,2015, Elapsed time: 0:23:02
-# Errors: 9, Warnings: 0
-# vsim maq_cafe_tb 
-# Start time: 12:54:46 on Dec 01,2015
+# Start time: 11:34:00 on Dec 03,2015
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -1259,5 +262,5 @@ do script.do
 # 0 ps
 # 1050 ns
 quit
-# End time: 12:59:12 on Dec 01,2015, Elapsed time: 0:04:26
+# End time: 11:44:57 on Dec 03,2015, Elapsed time: 0:10:57
 # Errors: 0, Warnings: 0
